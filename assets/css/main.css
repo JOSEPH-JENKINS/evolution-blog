@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: NeutralBold;
+    src: url('../../static/NeutralFace-Bold.otf');
+}
+
+@font-face{
+    font-family: Neutral;
+    src: url('../../static/NeutralFace.otf')
+}
+
+@layer components{
+    .matrix3d{
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+}
